@@ -23,6 +23,7 @@ class QU:
             i = self.id[i]
         return i    
 
+
     def union(self,p,q):
         pid = self.find_root(p)
         qid = self.find_root(q)
@@ -45,6 +46,7 @@ class QU:
     
     def get_size(self):
         return self.size
+
 test = QU("UF.txt")
 def test_qf():
     test = QU("UF.txt")
